@@ -1,0 +1,24 @@
+Perguntas Atividade Prática 02
+	
+	O número de endereços provido para cada área atendeu os requisitos de configuração? 
+Sobrou faixas de endereços sem uso?
+	R: 	Sim, para algumos redes como no caso a rede A2, com 26 endereços sobrando, rede B2 com 8 endereços sobrando;
+
+	Há pares de redes que se comunicam usando uma rota de ida diferente da rota de volta? Se 
+sim, por que isso acontece?
+	R: 	Para alguns casos sim, porém a rota não é totamente diferente, alternando entre um roteador diferente apenas, 
+		em comparação entre os caminhos de volta e ida;
+
+	Quais as vantagens e desvantagens de configuração estática de rotas?
+	R:	Vantagens:	Maior controle gerando assim em uma maior seguranç para a rede;
+					Pode gerar melhor desempenho na rede, evita gargalos, se configurado corretamente;
+
+		Desvantagens:	Inserção Manual;
+						Se configurado de forma ineficiente a rede pode não funcionar;
+
+	Explique o que é sumarização de rotas e por que é usada na Internet.
+	R:	Sumarização de rotas em redes de computadores, é agrupar um conjunto de endereços de redes em apenas um único
+		endereço, reduzindo assim o tamanho da tabela de roteamento. Tornando o processo de busca menos custoso, já que
+		o numero de endereços que o roteador deverá percorrer será menor. Para isso é necessário converter as redes em 
+		binário, feito isso é comparado bit a bit nas demais redes, se em todas eles este bit é igual, então este é mantido
+		para a rede final de unificação, caso contrário é atribuido zero.
